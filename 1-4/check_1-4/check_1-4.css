@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.clerfix{
+	content:"";
+	display:block;
+	clear:both;
+}
+.header{
+	width:10%;
+}
+.headline{
+	font-size:20px;
+}
+.nav{
+	text-align:center;
+}
