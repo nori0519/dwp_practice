@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.clearfix{
+	content:"";
+	display:block;
+	clear:both;
+}
+header{
+	width:960px;
+	margin:0 auto;
+	padding:50px 0;
+}
+.list{
+	width:100%;
+    height:50px;
+}
+.list:nth-child(odd){
+	background-color:#dcdcdc;
+}
+header .list-content{
+    padding:20px 20px;
+}
+.main{
+	width:960px;
+	padding:50px 0;
+	margin:0 auto;
+}
+.section1{
+	margin-bottom:40px;
+}
+.blocklist1{
+	width:30%;
+	height:200px;
+    background-color:orange;
+    float:left;
+    margin-bottom:40px;
+}
+.blocklist2{
+	width:30%;
+	height:200px;
+    background-color:yellow;
+    float:left;
+    margin:0 5%;
+}
+.blocklist3{
+	width:30%;
+	height:200px;
+    background-color:yellow;
+    float:left;
+}
+.blocklist4{
+	width:30%;
+	height:200px;
+    background-color:yellow;
+    float:left;
+    margin-bottom:40px;
+}
+.blocklist5{
+	width:30%;
+	height:200px;
+    background-color:orange;
+    float:left;
+    margin:0 5%;
+}
+.blocklist6{
+	width:30%;
+	height:200px;
+    background-color:yellow;
+    float:left;
+}
+.blocklist7{
+	width:30%;
+	height:200px;
+    background-color:yellow;
+    float:left;
+}
+.blocklist8{
+	width:30%;
+	height:200px;
+    background-color:yellow;
+    float:left;
+    margin:0 5%;
+}
+.blocklist9{
+	width:30%;
+	height:200px;
+    background-color:orange;
+    float:left;
+}
