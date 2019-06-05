@@ -40,7 +40,13 @@
 .main-head,.main-text{
 	padding-left:10px;
 }
-
+@media screen and (min-width:768px){
+    .br-pc{
+		display:block;
+  	}
+    .br-sp{
+  	    display:none; }
+	}
 @media screen and (max-width:768px){
 	.main{
 		margin:50px 0;
@@ -59,5 +65,18 @@
 	}
 	.main-content-left{
 		margin-top:50px;
+	}
+	.main-img{
+		width:302px;
+		margin:10px 10px;
+	}
+	.main-text{
+		font-size:13px;
+	}
+	.br-pc{
+		display:none;
+  	}
+    .br-sp{
+  	    display:block; }
 	}
 }
